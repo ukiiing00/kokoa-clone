@@ -20,3 +20,8 @@ z-index CSS 속성은 배치된 요소와 그 하위 요소 또는 플렉스 항
 
 현재 스택 컨텍스트에서 상자의 스택 레벨입니다.
 상자가 로컬 스택 컨텍스트를 설정하는지 여부입니다.
+
+## display : flex
+can you explain more why message bubble and message time have different heights when you apply 'display: flex; on their parent?
+
+Because the bubbles are spans, so they are inline, but when I make their parent flex they are not inline anymore and box model applies.
