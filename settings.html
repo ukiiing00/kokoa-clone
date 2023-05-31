@@ -5,7 +5,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Friends on KakaoTalk</title>
+        <title>Settings-KakaoTalk</title>
     </head>
     <body>
         <div class="status-bar">
@@ -26,38 +26,34 @@
             </div>
         </div>
 
-        <header class="screen-header">
-            <h1 class="screen-header__title">Chats</h1>
-            <div class="screen-header__icons">
+        <header class="alt-header">
+            <div class="alt-header__column">
+                <i class="fas fa-angle-left fa-2x"></i>
+            </div>
+            <div class="alt-header__column">
+                <h1 class="alt-header__title">Settings</h1>
+            </div>
+            <div class="alt-header__column">
                 <span><i class="fas fa-search fa-lg"></i></span>
-                <span><i class="far fa-comment fa-lg"></i></span>
-                <span><i class="fas fa-music fa-lg"></i></span>
-                <span
-                    ><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a
-                ></span>
             </div>
         </header>
-
         <main class="main-screen">
-            <div class="user-component">
-                <div class="user-component__column">
-                    <img
-                        class="user-component__avatar"
-                        src="./프로필.jpeg"
-                    />
-                    <div class="user-component__text">
-                        <h4 class="user-component__title">UK</h4>
-                        <h6 class="user-component__subtitle">
-                            this text whatever
-                        </h6>
-                    </div>
-                </div>
-                <div class="user-component__column">
-                    <span class="user-component__time">21:22</span>
-                    <div class="badge">1</div>
-                </div>
-            </div>
+            <ul class="settings-list">
+                <li class="settings__setting">
+                    <i class="fas fa-bullhorn"></i>
+                    <span>Notice</span>
+                </li>
+                <li class="settings__setting">
+                    <i class="fas fa-flask"></i>
+                    <span>Kakao Lab</span>
+                </li>
+                <li class="settings__setting">
+                    <i class="fas fa-info-circle"></i>
+                    <span>Version</span>
+                </li>
+            </ul>
         </main>
+
         <nav class="nav">
             <ul class="nav__list">
                 <li class="nav__btn">
@@ -67,8 +63,8 @@
                 </li>
                 <li class="nav__btn">
                     <a class="nav__link" href="chats.html">
-                        <span class="nav__notification">1</span
-                        ><i class="fas fa-comment fa-2x"></i
+                        <span class="nav__notification badge">1</span
+                        ><i class="far fa-comment fa-2x"></i
                     ></a>
                 </li>
                 <li class="nav__btn">
@@ -78,8 +74,7 @@
                 </li>
                 <li class="nav__btn">
                     <a class="nav__link" href="more.html">
-                        <span class="nav__combo"></span
-                        ><i class="fas fa-ellipsis-h fa-2x"></i
+                        <i class="fas fa-ellipsis-h fa-2x"></i
                     ></a>
                 </li>
             </ul>
