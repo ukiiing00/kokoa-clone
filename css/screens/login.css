@@ -1,4 +1,3 @@
-
 .welcome-header {
     margin: 90px 0px;
     text-align: center;
@@ -31,20 +30,20 @@
     transition: border-color 0.3s ease-in-out;
 }
 
-#login-form input:not([type="submit"]) {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+#login-form input:not([type='submit']) {
+    border-bottom: var(--main-border);
     transition: border-color 0.3s ease-in-out;
 }
 
 #login-form input::placeholder {
-    color: rgba(0, 0, 0, 0.4); 
+    color: rgba(0, 0, 0, 0.4);
 }
 
 #login-form input:focus {
     border-color: var(--yellow);
 }
 
-#login-form input[type="submit"] {
+#login-form input[type='submit'] {
     background-color: var(--yellow);
     cursor: pointer;
     padding: 20px 0px;
