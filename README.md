@@ -2,7 +2,6 @@
 
 My first HTML & CSS
 
-
 ## Block_Element--Modifier (BEM)
 
 ## Position : absolute
@@ -25,3 +24,6 @@ z-index CSS 속성은 배치된 요소와 그 하위 요소 또는 플렉스 항
 can you explain more why message bubble and message time have different heights when you apply 'display: flex; on their parent?
 
 Because the bubbles are spans, so they are inline, but when I make their parent flex they are not inline anymore and box model applies.
+
+## order
+order CSS 속성은 플렉스 또는 그리드 컨테이너에 항목을 배치할 순서를 설정합니다. 컨테이너의 항목은 오름차순 값을 기준으로 정렬된 다음 소스 코드 순서에 따라 정렬됩니다.
